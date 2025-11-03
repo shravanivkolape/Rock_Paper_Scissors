@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+    background-color: rgb(72, 193, 197);
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.choice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    font-weight: Bold;
+    font-size: 18px;
+    gap: 24px;
+    
+
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    font-weight: Bold;
+    font-size: 18px;
+
+}
+.user-options{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.user-options button{
+    font-size: 140px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(223, 138, 166);
+
+}
