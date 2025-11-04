@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Rock_Paper_Scissors</title>
-</head>
-<body>
-    <h1>Rock Paper Scissors</h1>
+  </head>
+  <body>
+    <h1>Rock Paper Scissor</h1>
 
     <div class="choice">
-        
-        <p id="user-choice-para">User Choice: -</p>
-        <p id="computer-choice-para">Computer Choice: -</p>
+      <p id="user-choice-para">User choice: </p>
+      <p id="computer-choice-para">Computer choice: </p>
     </div>
 
-    <p class="result" id="result-para">Result : -</p>
+    <p class="result" id="result-para">Result: </p>
+
+    <div class="count">
+      <p id="games_count_para">Games Played: 0</p>
+      <p id="user_score_para">Your Wins: 0</p>
+      <p id="computer_score_para">Computer Wins: 0</p>
+      <p id="games_draw_para">Games Draw: 0</p>
+    </div>
+
+   
 
     <div class="user-options">
-        <button onclick="PlayGame('rock')">🪨</button>
-        <button onclick="PlayGame('paper')">📃</button>
-        <button onclick="PlayGame('scissors')">✂️</button>
+      <button onclick="playGame('rock')">🪨</button>
+      <button onclick="playGame('paper')">📄</button>
+      <button onclick="playGame('scissors')">✂️</button>
+    </div>
+    <br><br>
+     <div class="reset">
+      <button onclick="resetGame()">Reset Game</button>
     </div>
 
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
